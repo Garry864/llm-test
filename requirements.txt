@@ -1,0 +1,4 @@
+pandasai
+langchain-groq
+streamlit
+xlrd
