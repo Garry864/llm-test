@@ -13,7 +13,7 @@ API = code["api_key"]
 llm = ChatGroq(model_name="llama3-70b-8192", api_key=API)
 
 # Load Data
-df = pd.read_excel("superstore.xls")
+df = pd.read_excel("Superstore.xls")
 smart_df = SmartDataframe(df, config={"llm": llm})
 
 # Streamlit Interface
